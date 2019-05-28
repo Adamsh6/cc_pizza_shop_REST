@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CodeClan default stylesheet for code example presentation */
+html {
+	font-family: Helvetica, Arial, sans-serif;
+}
+body	{
+	background: #fff solid none;
+	padding: 3em;
+}
+/* some decor */
+h1#titleHead	{
+	border-bottom: 2px solid #44a9e0;
+	margin: 0 0 2em 0;
+}
+/* headings and paragraphs */
+h1	{
+	font-size: 2.2em;
+	line-height: 2.2em;
+}
+h2	{
+	font-size: 1.8em;
+	line-height: 1.8em;
+}
+h3	{
+	font-size: 1.6em;
+	line-height: 1.6em;
+}
+h4	{
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+	margin: 0 0 1em 0;
+}
+blockquote	{
+	font-size: 1.4em;
+	margin: 2em;
+	font-style: italic;
+}
+strong	{
+	font-weight: bold;
+}
+/* links */
+a 	{
+	color: #44a9e0;
+}
+a:visited 	{
+	color: #2a4f80;
+}
+a:hover	{
+	text-decoration: none;
+}
+/* lists */
+ol, ul {
+	font-size: 1.4em;
+	margin: 0 0 0 1.4em;
+	line-height: 1.6em;
+}
+ol {
+	list-style-type: decimal;
+}
+ul {
+	list-style-type: circle;
+}
+/* tables */
+table {
+	font-size: 1.4em;
+	margin: 1em 0 1em 0;
+	border: 1px solid #ededed;
+}
+table caption {
+	font-style: italic;
+	margin: 0 0 0.5em 0;
+}
+tr {
+	border-bottom: 1px solid #ededed;
+}
+th {
+	font-weight: bold;
+}
+th, td {
+	border-right: 1px solid #ededed;
+	padding: 0.5em;
+}
+/* other elements */
+hr {
+	border: 1px solid #ededed;
+	margin: 2em 0 2em 0;
+}
+/* forms */
+form {
+}
+fieldset	{
+	border: 1px solid #ededed;
+	padding: 1em;
+	margin: 0 0 2em 0;
+}
+legend	{
+	font-size: 1.4em;
+	margin: 1em 0 1em 0;
+}
+label	{
+	font-size: 1.4em;
+	float: left;
+	width: 30%;
+	margin-top: 0.2em;
+	margin-right: 1em;
+}
+input	{
+	float: left;
+	font-size: 1.4em;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"]{
+	font-size: 1.4em;
+	padding: 0.2em;
+}
+input[type="checkbox"], input[type="radio"]	{
+	float: none;
+}
+input[type="file"] {
+	font-size: 1em;
+}
+input[type="date"] {
+	font-family: Helvetica, Arial, sans-serif;
+}
+textarea {
+	font-size: 1em;
+	padding: 0.3em;
+}
+select {
+	font-size: 1em;
+}
+form div	{
+	margin: 0 0 1em 0;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+button	{
+	font-size: 1.4em;
+	padding: 0.6em;
+}
+
+container {
+  
+}

@@ -1,12 +1,13 @@
-
-<% @orders.each do |order| %>
-<container>
-  <p>Name: <%= order.pretty_name %></p>
-  <p>Order: <%= order.quantity %> x <%= order.topping %></p>
-  <p><a href='/pizza-orders/<%= order.id %>'>Show Order</a></p>
-  <p><a href="/pizza-orders/<%= order.id %>/edit">Edit Order</a></p>
-  <form method="post" action="/pizza-orders/<%= order.id %>/delete">
-    <input type="submit" value="Delete Order"/>
-  </form>
-</container>
-<% end %>
+<div class="container">
+  <% @orders.each do |order| %>
+  <div class="item">
+    <p>Name: <%= order.pretty_name %></p>
+    <p>Order: <%= order.quantity %> x <%= order.topping %></p>
+    <p><a href='/pizza-orders/<%= order.id %>'>Show Order</a></p>
+    <p><a href="/pizza-orders/<%= order.id %>/edit">Edit Order</a></p>
+    <form method="post" action="/pizza-orders/<%= order.id %>/delete">
+      <input type="submit" value="Delete Order"/>
+    </form>
+  </div>
+  <% end %>
+</div>

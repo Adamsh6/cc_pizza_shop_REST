@@ -193,6 +193,15 @@ button	{
 	padding: 0.6em;
 }
 
-container {
-  
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 2px solid black;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 0.5em;
+  width: 1em;
 }

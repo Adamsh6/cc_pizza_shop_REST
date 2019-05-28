@@ -1,20 +1,26 @@
 <form method="post" action="/pizza-orders">
-  <label for="first-name">First name:</label>
-  <input id="first-name" type="text" name="first_name" />
-
-  <label for="last-name">Last name:</label>
-  <input id="last-name" type="text" name="last_name" />
-
-  <label for="pizza-select">Select a pizza:</label>
-  <select id="pizza-select" name="topping">
-    <option value="Margherita">Margherita</option>
-    <option value="Jalapeno">Jalapeno</option>
-    <option value="Pepperoni">Pepperoni</option>
-    <option value="Italian Sausage">Italian Sausage</option>
-  </select>
-
-  <label for="quantity">Quantity</label>
-  <input if="quantity" type="number" name="quantity" />
-
-  <input type="submit" value="Order Pizza"/>
+  <div class="form--item">
+    <label for="first-name">First name:</label>
+    <input id="first-name" type="text" name="first_name" />
+  </div>
+  <div class="form--item">
+    <label for="last-name">Last name:</label>
+    <input id="last-name" type="text" name="last_name" />
+  </div>
+  <div class="form--item">
+    <label for="pizza-select">Select a pizza:</label>
+    <select id="pizza-select" name="topping">
+      <option value="Margherita">Margherita</option>
+      <option value="Jalapeno">Jalapeno</option>
+      <option value="Pepperoni">Pepperoni</option>
+      <option value="Italian Sausage">Italian Sausage</option>
+    </select>
+  </div>
+  <div class="form--item">
+    <label for="quantity">Quantity</label>
+    <input if="quantity" type="number" name="quantity" />
+  </div>
+  <div class="form--item">
+    <input type="submit" value="Order Pizza"/>
+  </div>
 </form>

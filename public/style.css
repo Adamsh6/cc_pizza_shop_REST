@@ -53,6 +53,7 @@ html {
 body	{
 	background: #fff solid none;
 	padding: 3em;
+  padding-top: 1em;
 }
 /* some decor */
 h1#titleHead	{
@@ -92,12 +93,14 @@ strong	{
 /* links */
 a 	{
 	color: #44a9e0;
+  text-decoration: none;
 }
 a:visited 	{
-	color: #2a4f80;
+	/* color: #2a4f80; */
 }
 a:hover	{
 	text-decoration: none;
+  color: #2a4f80;
 }
 /* lists */
 ol, ul {
@@ -138,6 +141,8 @@ hr {
 }
 /* forms */
 form {
+  display: flex;
+  flex-direction: column;
 }
 fieldset	{
 	border: 1px solid #ededed;
@@ -181,6 +186,7 @@ textarea {
 }
 select {
 	font-size: 1em;
+  width: auto;
 }
 form div	{
 	margin: 0 0 1em 0;
@@ -191,6 +197,23 @@ form div	{
 button	{
 	font-size: 1.4em;
 	padding: 0.6em;
+  width: auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+
+}
+li {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+nav {
+  padding-bottom: 1em;
+  margin-top: none;
+
 }
 
 .container {
@@ -199,9 +222,35 @@ button	{
 }
 
 .item {
+  display: flex;
+  flex-direction: column;
   border: 2px solid black;
   border-radius: 1em;
   padding: 1em;
   margin: 0.5em;
-  width: 1em;
+  width: 20%;
+  height: 17em;
+  min-width: 14em;
+}
+
+.item--links p{
+	margin: 0;
+	text-align: center;
+}
+
+.item a {
+		border: 1px solid grey;
+		border-radius: 0.2em;
+		width: 100%;
+		/* margin: auto; */
+		padding-left: 30%;
+		padding-right: 30%;
+		padding-top: 0.2em;
+		padding-bottom: 0.1em;
+		font-size: 0.6em;
+		color: black;
+}
+
+.item--links form {
+	margin-top: 0.8em;
 }
